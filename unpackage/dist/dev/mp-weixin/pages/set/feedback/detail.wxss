@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background-color: #f8f8f8;
+}
+/* 上传 */
+.uni-uploader {
+  flex: 1;
+  flex-direction: column;
+}
+.uni-uploader-body {
+  margin-top: 16rpx;
+}
+.uni-uploader__files {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.uni-uploader__file {
+  margin: 10rpx;
+  width: 210rpx;
+  height: 210rpx;
+}
+.uni-uploader__img {
+  display: block;
+  width: 210rpx;
+  height: 210rpx;
+}
+/*问题反馈*/
+.feedback-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  color: #8f8f94;
+  font-size: 28rpx;
+}
+.feedback-body {
+  background: #fff;
+  padding: 10rpx 20rpx;
+}
+.feedback-body .gender-item {
+  margin-right: 20rpx;
+}
+.feedback-body .gender-item .gender-item-text {
+  padding-left: 10rpx;
+}
+.feedback-body .gender-item radio .wx-radio-input.wx-radio-input-checked {
+  background: #fa436a;
+  border-color: #fa436a;
+}
+.feedback-textare {
+  height: 200rpx;
+  font-size: 34rpx;
+  line-height: 50rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx 30rpx 0;
+}
+.feedback-input {
+  font-size: 28rpx;
+  height: 72rpx;
+  min-height: 50rpx;
+  padding: 15rpx 20rpx;
+  line-height: 72rpx;
+}
+.feedback-uploader {
+  padding: 22rpx 20rpx;
+}
+

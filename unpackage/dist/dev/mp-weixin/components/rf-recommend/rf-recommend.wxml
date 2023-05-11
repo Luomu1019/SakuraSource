@@ -1,0 +1,1 @@
+<view class="rf-floor-index data-v-5000d664"><view class="f-header data-v-5000d664"><view class="line data-v-5000d664"></view><text class="name data-v-5000d664">为您推荐</text><view class="line data-v-5000d664"></view></view><rf-product-list vue-id="9fcb11bc-1" bottom="{{bottom}}" list="{{guessYouLikeList}}" class="data-v-5000d664" bind:__l="__l"></rf-product-list></view>

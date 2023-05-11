@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.rf-no-data.data-v-3903271b {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rf-no-data .image.data-v-3903271b {
+  width: 60vw;
+  height: 40vw;
+  margin-bottom: 20rpx;
+}
+.rf-no-data .image image.data-v-3903271b {
+  width: 100%;
+  height: 100%;
+}
+.rf-no-data .content.data-v-3903271b {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  letter-spacing: 1rpx;
+}
+.rf-no-data .content .title.data-v-3903271b {
+  font-size: 32rpx;
+  color: #303133;
+}
+.rf-no-data .content .desc.data-v-3903271b {
+  font-size: 28rpx;
+  margin-top: 6rpx;
+}
+.rf-no-data .content .btn.data-v-3903271b {
+  width: 160rpx;
+  height: 65rpx;
+  color: #868d91;
+  font-size: 24rpx;
+  margin-top: 34rpx;
+  border-radius: 36rpx;
+  border: 1rpx solid #d4d4d4;
+}
+.rf-no-data .content .btn.data-v-3903271b::after {
+  border: none;
+}
+.rf-no-data .back.data-v-3903271b {
+  margin: 300rpx 0 40rpx;
+}
+

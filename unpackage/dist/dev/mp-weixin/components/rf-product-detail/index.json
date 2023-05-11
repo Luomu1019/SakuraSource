@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag",
+    "rf-rate": "/components/rf-rate/rf-rate",
+    "rf-badge": "/components/rf-badge/rf-badge",
+    "rf-nav": "/components/rf-nav/index",
+    "rf-item-popup": "/components/rf-item-popup/index",
+    "rf-live": "/components/rf-live/index",
+    "rf-attr-content": "/components/rf-attr-content/index"
+  }
+}

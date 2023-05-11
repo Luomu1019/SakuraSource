@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page,
+.order {
+  background: #f8f8f8;
+  height: 100%;
+}
+page .order-search,
+.order .order-search {
+  padding: 10rpx 20rpx;
+  position: relative;
+}
+page .order-search .order-search-input,
+.order .order-search .order-search-input {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 40rpx;
+  padding: 10rpx 0 10rpx 30rpx;
+  color: #909399;
+}
+page .order-search .iconfont,
+.order .order-search .iconfont {
+  position: absolute;
+  right: 48rpx;
+  top: 22rpx;
+}
+page .swiper-box,
+.order .swiper-box {
+  height: calc(100% - 160rpx);
+}
+page .list-scroll-content,
+.order .list-scroll-content {
+  height: 100%;
+}
+page .uni-swiper-item,
+.order .uni-swiper-item {
+  height: auto;
+}
+

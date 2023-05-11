@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.rf-kefu.data-v-01c00cc8 {
+  width: 100%;
+}
+.rf-kefu .wrapper.data-v-01c00cc8 {
+  height: 72rpx;
+  width: 72rpx;
+  background-color: #000;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 20rpx;
+  top: 160rpx;
+  z-index: 98;
+}
+.rf-kefu .iconfont.data-v-01c00cc8 {
+  font-size: 48rpx;
+  opacity: 1;
+  color: #fff;
+  z-index: 100;
+}
+
